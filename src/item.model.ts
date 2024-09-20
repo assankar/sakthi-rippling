@@ -1,6 +1,7 @@
-export interface ToDoItem {
+export interface Questions {
     id: number;
     title: string;
-    description: string;
-    completed: boolean;
+    content: string;
+    creator: string;
+    upvotes: number;
 };
