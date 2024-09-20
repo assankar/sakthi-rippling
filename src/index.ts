@@ -8,7 +8,7 @@ import { Pool } from "pg";
 var dbconfig = {
     user: 'rippling',
     database: 'interview',
-    password: 'sakthi-rippling',
+    password: '',
     host: 'sakthi-rippling.cbbcaivvunhx.us-east-1.rds.amazonaws.com',
     post: 5432,
     max: 10,
